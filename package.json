@@ -2,11 +2,16 @@
   "name": "foodme",
   "version": "1.0.0",
   "description": "A webapp to recomment recipes and more ...",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "url": "git@github.com:FoodMe-Project/foodme.git",
     "type": "git"
   },
   "author": "charlesjamb <charles.jambon@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-stormpath": "^3.1.8"
+  }
 }
